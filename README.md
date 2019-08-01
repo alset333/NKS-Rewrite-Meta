@@ -1,54 +1,29 @@
-## gulp-nks-rewrite-meta
+## Python-NKS-Rewrite-Meta
 
-Gulp plugin for rewriting metadata of NKS(Native Kontrol Standard) preset file.
+Python application for rewriting metadata of NKS (Native Kontrol Standard) preset file.
 
 ## Installation
 ```
-  npm install gulp-nks-rewrite-meta --save-dev
+    TODO
 ```
 
 ## Usage
 
-using the static data.
-```coffeescript
-rewrite = require 'gulp-nks-rewrite-meta'
-
-gulp.task 'dist', ->
-  gulp.src ['src/Piano/**/*.nksf']
-    .pipe rewrite
-      modes: ['Sample-based']
-      types: [
-        ['Piano/Keys']
-        ['Piano/Keys', 'Electric Piano']
-      ]
-    .pipe gulp.dest 'dist'
+```
+    TODO
 ```
 
-using the function to provide data.
-```coffeescript
-rewrite = require 'gulp-nks-rewrite-meta'
 
-gulp.task 'dist', ->
-  gulp.src ['src/Velvet/**/*.nksf'], read: true
-    .pipe rewrite (file, metadata) ->
-      folder = path.relative 'src/Velvet', path.dirname file.path
-      # using folder as preset bank
-      bankchain: ['Velvet', folder, '']
-    .pipe gulp.dest 'dist'
-```
 
-using the non-blocking function to provide data.
-```coffeescript
-rewrite = require 'gulp-nks-rewrite-meta'
 
-gulp.task 'dist', ->
-  gulp.src ['src/**/*.nksf'], read: true
-  .pipe rewrite (file, metadata, done) ->
-    # create data in non-blocking
-    nonblockingfunction metadata, (err, data) ->
-      done err, data
-  .pipe gulp.dest 'dist'
-```
+
+# Part of forked README below. Not nessicarily applicable.
+
+# TODO
+
+
+
+
 
 ## API
 
