@@ -1,3 +1,8 @@
 class Chunk:
-    chunk_id = ['', '', '', '']
-    chunk_size = 0
+
+
+    def __init__(self, ):
+        self.chunk_id
+        self.chunk_size
+        self.chunk_data
+        self.pad_byte
