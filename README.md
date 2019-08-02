@@ -1,6 +1,6 @@
-## Python-NKS-Rewrite-Meta
+## NKS-Rewrite-Meta
 
-Python application for rewriting metadata of NKS (Native Kontrol Standard) preset file.
+Application for rewriting metadata of NKS (Native Kontrol Standard) preset file.
 
 ## Installation
 ```
