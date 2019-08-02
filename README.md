@@ -13,6 +13,11 @@ Application for rewriting metadata of NKS (Native Kontrol Standard) preset file.
     TODO
 ```
 
+## Sources
+
+`https://johnloomis.org/cpe102/asgn/asgn1/riff.html`
+`https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types`
+`https://en.wikipedia.org/wiki/Resource_Interchange_File_Format`
 
 
 
